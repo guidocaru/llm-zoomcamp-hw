@@ -1,0 +1,24 @@
+[project]
+name = "04-evaluation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.117.0",
+    "gitsource>=0.0.5",
+    "minsearch>=0.2.0",
+    "numpy>=2.5.1",
+    "onnxruntime>=1.27.0",
+    "pandas>=3.0.3",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.2",
+    "tokenizers>=0.23.1",
+    "tqdm>=4.69.0",
+]
+
+[dependency-groups]
+dev = [
+    "huggingface-hub>=1.24.0",
+    "jupyter>=1.1.1",
+]
